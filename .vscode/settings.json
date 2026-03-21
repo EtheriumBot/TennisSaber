@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "TennisSaber.slnx"
+    "dotnet.defaultSolution": "mixed-reality-demo.slnx"
 }
