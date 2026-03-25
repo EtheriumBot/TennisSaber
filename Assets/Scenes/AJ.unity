@@ -1236,7 +1236,7 @@ GameObject:
   - component: {fileID: 1832292486721108903}
   - component: {fileID: 2331460608202103918}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_Bludger2
+  m_Name: Bludger2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1369,7 +1369,7 @@ GameObject:
   - component: {fileID: 5523205335200675002}
   - component: {fileID: 8268215281585499930}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_Quaffle
+  m_Name: Quaffle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1707,7 +1707,7 @@ GameObject:
   - component: {fileID: 2912029381738414911}
   - component: {fileID: 8349945292192913775}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_BludgerHolder2
+  m_Name: BludgerHolder2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2372,7 +2372,7 @@ GameObject:
   - component: {fileID: 7490818596082352425}
   - component: {fileID: 2082220144722691999}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_FrontLock
+  m_Name: FrontLock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2456,7 +2456,7 @@ GameObject:
   - component: {fileID: 7255040250212181168}
   - component: {fileID: 4722594738133764063}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_Bolt8
+  m_Name: Bolt8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3731,7 +3731,7 @@ GameObject:
   - component: {fileID: 8494411488807470840}
   - component: {fileID: 8500138084034159596}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_ShieldDoor2
+  m_Name: ShieldDoor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3749,7 +3749,7 @@ GameObject:
   - component: {fileID: 2565098875771107495}
   - component: {fileID: 8655576077375019765}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_Bludger1
+  m_Name: Bludger1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4042,7 +4042,7 @@ GameObject:
   - component: {fileID: 8242158491376083874}
   - component: {fileID: 1706549927246224966}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_Chain1
+  m_Name: Chain1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4199,7 +4199,7 @@ GameObject:
   - component: {fileID: 2111831163002675972}
   - component: {fileID: 4278318910444580898}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_Chest1
+  m_Name: Chest1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4314,7 +4314,7 @@ GameObject:
   - component: {fileID: 3639083218062702541}
   - component: {fileID: 366091243268224006}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_Chain11
+  m_Name: Chain11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4855,63 +4855,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4848103806289736879}
   m_Mesh: {fileID: 2227490598516529104, guid: 5c5eb040b1b50462e8d88a6f51c0ccb6, type: 3}
---- !u!1001 &2619114379282019255
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4652660509953783035, guid: 12127dbd984554315ad666df8f5093fc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.0188
-      objectReference: {fileID: 0}
-    - target: {fileID: 4652660509953783035, guid: 12127dbd984554315ad666df8f5093fc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.19363
-      objectReference: {fileID: 0}
-    - target: {fileID: 4652660509953783035, guid: 12127dbd984554315ad666df8f5093fc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -119.39586
-      objectReference: {fileID: 0}
-    - target: {fileID: 4652660509953783035, guid: 12127dbd984554315ad666df8f5093fc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4652660509953783035, guid: 12127dbd984554315ad666df8f5093fc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4652660509953783035, guid: 12127dbd984554315ad666df8f5093fc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4652660509953783035, guid: 12127dbd984554315ad666df8f5093fc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4652660509953783035, guid: 12127dbd984554315ad666df8f5093fc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4652660509953783035, guid: 12127dbd984554315ad666df8f5093fc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4652660509953783035, guid: 12127dbd984554315ad666df8f5093fc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8724768485187501334, guid: 12127dbd984554315ad666df8f5093fc, type: 3}
-      propertyPath: m_Name
-      value: PeterLee_QuidditchChest_Quidditch_Chest (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 12127dbd984554315ad666df8f5093fc, type: 3}
 --- !u!23 &2630211186693736948
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6156,7 +6099,7 @@ GameObject:
   - component: {fileID: 4857437767755461297}
   - component: {fileID: 7458621466991751118}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_ShieldDoor1
+  m_Name: ShieldDoor1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7016,7 +6959,7 @@ GameObject:
   - component: {fileID: 6793934040000882118}
   - component: {fileID: 7970475395748589979}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_Lid
+  m_Name: QuidditchChest_Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7034,7 +6977,7 @@ GameObject:
   - component: {fileID: 8534788725153697672}
   - component: {fileID: 2823970056531313723}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_BludgerHolder1
+  m_Name: BludgerHolder1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7221,7 +7164,7 @@ GameObject:
   - component: {fileID: 908314332691788497}
   - component: {fileID: 2474574010314542312}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_Chain7
+  m_Name: Chain7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9342,7 +9285,7 @@ GameObject:
   - component: {fileID: 3731129321048197979}
   - component: {fileID: 3882321660504138360}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_Shield1
+  m_Name: Shield1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10198,7 +10141,7 @@ GameObject:
   - component: {fileID: 9003734720427419837}
   - component: {fileID: 4304318948307924833}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_Bolt2
+  m_Name: Bolt2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11255,7 +11198,7 @@ GameObject:
   - component: {fileID: 8660197785020265355}
   - component: {fileID: 550096434927244947}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_Bolt9
+  m_Name: Bolt9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14210,7 +14153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2450266605328057117}
   m_Layer: 0
-  m_Name: PeterLee_QuidditchChest_Quidditch_Chest
+  m_Name: Quidditch_Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14230,4 +14173,3 @@ SceneRoots:
   - {fileID: 5443215091457853594}
   - {fileID: 4731477045292434415}
   - {fileID: 2450266605328057117}
-  - {fileID: 2619114379282019255}
