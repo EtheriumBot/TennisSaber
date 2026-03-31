@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 651d103057d74c4d8e51d0b368d3d98b, type: 3}
   m_Name: ColocationDiscoveryFeature Standalone
   m_EditorClassIdentifier: Unity.XR.MetaOpenXR::UnityEngine.XR.OpenXR.Features.Meta.ColocationDiscoveryFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Colocation Discovery'
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.meta-colocation-discovery
@@ -841,7 +841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f61610f95074135a9fd060fc37c4788, type: 3}
   m_Name: BoundaryVisibilityFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Boundary Visibility'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.meta-boundary-visibility
@@ -908,7 +908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 651d103057d74c4d8e51d0b368d3d98b, type: 3}
   m_Name: ColocationDiscoveryFeature Android
   m_EditorClassIdentifier: Unity.XR.MetaOpenXR::UnityEngine.XR.OpenXR.Features.Meta.ColocationDiscoveryFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Colocation Discovery'
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.meta-colocation-discovery

@@ -1,6 +1,8 @@
-using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using UnityEngine;
+using UnityEngine.Networking;
 
 // 1. Data structures to match JSON format
 [System.Serializable]
@@ -52,22 +54,32 @@ public class BallSpawner : MonoBehaviour
 
     void LoadLevelData()
     {
-        string filePath = Path.Combine("Assets/Resources\\", jsonFileName);
+        string filePath = Path.Combine(Application.streamingAssetsPath, jsonFileName);
 
-        if (File.Exists(filePath))
+        StartCoroutine(LoadAsset(filePath));
+    }
+    IEnumerator LoadAsset(string path)
+    {
+        using (UnityWebRequest uwr = UnityWebRequest.Get(path))
         {
-            string jsonContents = File.ReadAllText(filePath);
-            LevelRoot root = JsonUtility.FromJson<LevelRoot>(jsonContents);
+            yield return uwr.SendWebRequest();
 
-            // Sort notes by beat to ensure we process them in order
-            _upcomingNotes = root.notes;
-            _upcomingNotes.Sort((a, b) => a.beat.CompareTo(b.beat));
+            if (uwr.result == UnityWebRequest.Result.ConnectionError || uwr.result == UnityWebRequest.Result.ProtocolError)
+            {
+                Debug.LogError("Error while loading asset: " + uwr.error);
+            }
+            else
+            {
+                // Get the downloaded text/data
+                string data = uwr.downloadHandler.text;
+                LevelRoot root = JsonUtility.FromJson<LevelRoot>(data);
 
-            Debug.Log($"Loaded {_upcomingNotes.Count} notes.");
-        }
-        else
-        {
-            Debug.LogError("JSON file not found at " + filePath);
+                // Sort notes by beat to ensure we process them in order
+                _upcomingNotes = root.notes;
+                _upcomingNotes.Sort((a, b) => a.beat.CompareTo(b.beat));
+
+                Debug.Log($"Loaded {_upcomingNotes.Count} notes.");
+            }
         }
     }
 
