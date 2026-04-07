@@ -49,7 +49,7 @@ MonoBehaviour:
   - {fileID: 1743895747514610694, guid: a666a979526229c4c92c8102c757f251, type: 3}
   - {fileID: 1743895747514610694, guid: e3c421b7dc8785049a76456863c3a767, type: 3}
   - {fileID: 1743895747514610694, guid: 9ee4c0111c7baed48b565ba5a1b342c9, type: 3}
-  bpm: 115
+  bpm: 126
   jsonFileName: testsong.json
 --- !u!82 &7163396540577722519
 AudioSource:
@@ -62,9 +62,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 6edfb09979934074d808ac8cd10c8d7d, type: 3}
+  m_Resource: {fileID: 8300000, guid: f6e0c7e58268743d9b5d597fbcdc46a8, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0

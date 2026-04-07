@@ -89,7 +89,7 @@ public class BallSpawner : MonoBehaviour
         if (data.noteType < notePrefabs.Length)
         {
             // Position uses the 'position' value from JSON for the X-axis
-            Vector3 spawnPos = new Vector3(data.position, 5, 10f); // 10 units in front
+            Vector3 spawnPos = new Vector3(data.position, 5, 1f); // 10 units in front
             Instantiate(notePrefabs[data.noteType], spawnPos, Quaternion.identity);
         }
     }
