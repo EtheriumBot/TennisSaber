@@ -49,6 +49,7 @@ MonoBehaviour:
   - {fileID: 1743895747514610694, guid: a666a979526229c4c92c8102c757f251, type: 3}
   - {fileID: 1743895747514610694, guid: e3c421b7dc8785049a76456863c3a767, type: 3}
   - {fileID: 1743895747514610694, guid: 9ee4c0111c7baed48b565ba5a1b342c9, type: 3}
+  ghostNotePrefab: {fileID: 1743895747514610694, guid: 4cb3d6a0752cde046940773053c3f9e4, type: 3}
   bpm: 126
   jsonFileName: testsong.json
 --- !u!82 &7163396540577722519
