@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5d1e29d57cbbe4b3cbe2e64b19ce53e3
+guid: 07358e37ee2094cfdbe8c3803f107dd7
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: BroomStick
-    second: {fileID: 2100000, guid: de8dd0292405b462a987b4b741baca83, type: 2}
+    second: {fileID: 2100000, guid: 362654be78ffc437daf6d4102f042205, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: NameTag
-    second: {fileID: 2100000, guid: 2a5757ac2e97e4051b5bd88327790272, type: 2}
+      name: Material.007
+    second: {fileID: 2100000, guid: 35d4053a1700d46998fd7b465e7351d3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -43,7 +43,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 3
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -101,7 +101,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 0.03
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
